@@ -2,13 +2,13 @@ var box = document.querySelector('#box');
 
 const projects = [
   {
-    Image: './images/projects/siteBar.png',
+    Image: './public/images/projects/siteBar.png',
     link: 'https://cabecas-bar.online',
     name: 'Site Do Bar e Restaurante Cabeças Bar',
     description: 'O site foi desenvolvido para que o restaurante Cabeças Bar tenha presença na internet, uma vez que o restaurante não possuía um site anteriormente. O objetivo deste site é fornecer informações sobre o restaurante, incluindo dados de contato, localização e cardápio, para que futuros clientes possam encontrar o restaurante com facilidade.',
   },
   {
-    Image: './images/projects/novaLands.png',
+    Image: './public/images/projects/novaLands.png',
     link: 'https://novalands.vercel.app/',
     name: 'Site Nova Lands',
     description: 'O site que eu criei é uma versão aprimorada do site oficial, que apresentava alguns problemas de design responsivo, acessibilidade e internacionalização. Eu me encarreguei de todo o desenvolvimento do site e de todas as melhorias. Agora, o site está mais bonito, funcional e adaptado para diferentes públicos e dispositivos.',
