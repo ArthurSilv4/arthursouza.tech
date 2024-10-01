@@ -14,6 +14,6 @@ O site é uma plataforma elegante e moderna que apresenta uma seleção dos meus
 
 # Autor
 
-Arthur de Souza Silva
+Arthur De Souza Silva
 
 <https://www.linkedin.com/in/arthur-souza-dev/>
