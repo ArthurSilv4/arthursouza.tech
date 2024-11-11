@@ -1,19 +1,32 @@
-# Portfolio
+### Hey, Arthur Souza aqui! 👋
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ArthurSilv4/arthurdesouza.com/blob/master/LICENSE)
 
-# Sobre o projeto
+## Quer mandar sugestão de projetos e desafios para estudantes de programação? 
 
-O site é uma plataforma elegante e moderna que apresenta uma seleção dos meus melhores projetos. Com um design elegante e minimalista, o site integra perfeitamente as redes sociais e curriculo, oferecendo aos visitantes a oportunidade de explorar os melhores projetos desenvolvidos por mim.
+Manda direto para o [Desafio.Tech](https://github.com/ArthurSilv4/site-desafio.tech) que nós vamos selecionar os melhores para postar;
 
-# Tecnologias utilizadas
+## Quer contribuir para um projeto open-source?
 
-- Html
-- JavaScript
-- Tawind Css
+### Projetos que vou concluir em 2025
 
-# Autor
+- [Nome do projeto](link)
 
-Arthur De Souza Silva
+Abaixo uma lista de projetos que desenvolvi durante minha vida;
 
-<https://www.linkedin.com/in/arthur-souza-dev/>
+- [Nome do projeto](link)
+
+## Livros Recomendados
+
+### Livros que vou ler em 2025
+
+- [Nome do livreo](link) by autor
+
+## Rede
+
+[LinkedIn](https://www.linkedin.com/in/arthur-souza-dev/) compartilho mais da minha vida profissional;
+
+```csharp
+Console.WriteLine("Sim, essa página foi desenvolvida com muito carinho");
+```
+
+tu pode deixar um LIKE clicando na estrelinha do [repo](https://github.com/ArthurSilv4/arthurdesouza.com/tree/master);
