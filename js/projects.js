@@ -1,24 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
-  if (typeof marked === "function") {
-    fetch('https://raw.githubusercontent.com/ArthurSilv4/arthurdesouza.com/refs/heads/master/README.md')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.text();
-      })
-      .then(data => {
-        const readmeHtml = marked(data);
-        const container = document.getElementById('content');
-        if (container) {
-          container.innerHTML = readmeHtml;
-          Prism.highlightAllUnder(container);
-        } else {
-          console.error("Element with ID 'content' not found");
-        }
-      })
-      .catch(error => console.error("Oops:", error));
-  } else {
-    console.error("Marked is not available");
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch('https://raw.githubusercontent.com/ArthurSilv4/arthurdesouza.com/refs/heads/dev/README.md');
+
+    const data = await response.text();
+    const container = document.getElementById('content');
+
+    container.innerHTML = marked(data);
+    Prism.highlightAllUnder(container);
+  } catch (error) {
+    console.error(error);
   }
+});
+
+window.addEventListener("scroll", function () {
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    document.getElementById("clickme").style.display = "block";
+    document.getElementById("clickme").classList.add("animate-clickme");
+  }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const clickmeImage = document.getElementById("clickme");
+  clickmeImage.addEventListener("click", () => window.open("https://www.linkedin.com/in/arthur-souza-dev/", "_blank"));
 });
