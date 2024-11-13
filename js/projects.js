@@ -5,8 +5,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = await response.text();
     const container = document.getElementById('content');
 
-    container.innerHTML = marked(data);
-    Prism.highlightAllUnder(container);
+    if (container) {
+      container.innerHTML = marked(data);
+      Prism.highlightAllUnder(container);
+    } else {
+      console.error("Element with ID 'content' not found.");
+    }
   } catch (error) {
     console.error(error);
   }
@@ -14,11 +18,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 window.addEventListener("scroll", function () {
   if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-    document.getElementById("clickme").style.display = "block";
-    document.getElementById("clickme").classList.add("animate-clickme");
+    const clickmeElement = document.getElementById("clickme");
+    if (clickmeElement) {
+      clickmeElement.style.display = "block";
+      clickmeElement.classList.add("animate-clickme");
+    } else {
+      console.error("Element with ID 'clickme' not found.");
+    }
   }
 });
+
 document.addEventListener("DOMContentLoaded", function () {
   const clickmeImage = document.getElementById("clickme");
-  clickmeImage.addEventListener("click", () => window.open("https://www.linkedin.com/in/arthur-souza-dev/", "_blank"));
+  if (clickmeImage) {
+    clickmeImage.addEventListener("click", () => window.open("https://www.linkedin.com/in/arthur-souza-dev/", "_blank"));
+  } else {
+    console.error("Element with ID 'clickme' not found.");
+  }
 });
