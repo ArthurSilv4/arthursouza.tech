@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/ArthurSilv4/arthurdesouza.com/refs/heads/dev/README.md');
+    const response = await fetch('https://raw.githubusercontent.com/ArthurSilv4/arthurdesouza.com/refs/heads/master/README.md');
 
     const data = await response.text();
     const container = document.getElementById('content');
