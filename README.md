@@ -1,32 +1,64 @@
 ### Hey, Arthur Souza aqui! 👋
 
 
+
 ## Quer mandar sugestão de projetos e desafios para estudantes de programação? 
+### Participe do meu projeto open-source!
 
-Manda direto para o [Desafio.Tech](https://github.com/ArthurSilv4/site-desafio.tech) que nós vamos selecionar os melhores para postar;
+Estou sempre em busca de novos colaboradores para meus projetos open-source. Se você tem interesse em contribuir, seja com código, documentação ou sugestões, sua ajuda será muito bem-vinda;
 
-## Quer contribuir para um projeto open-source?
+Confira os repositórios no GitHub e veja como você pode ajudar:
 
-### Projetos que vou concluir em 2025
+- [Front-end](https://github.com/ArthurSilv4/site-desafio.tech) Ajude a criar interfaces intuitivas e dinâmicas para uma experiência de usuário atraente;
 
-- [Nome do projeto](link)
+- [Back-end](https://github.com/ArthurSilv4/api-desafio.tech) Contribua com a lógica e a estrutura que suportam desafios reais, criados por profissionais para preparar estudantes para o mercado;
 
-Abaixo uma lista de projetos que desenvolvi durante minha vida;
+Juntos podemos criar algo incrível;
 
-- [Nome do projeto](link)
+
+
+## Projetos em Destaque
+### Projetos em Desenvolvimento
+
+Explore alguns dos projetos em que estou trabalhando ativamente para criar soluções inovadoras:
+
+- [App Desafio dos 100 dias](https://github.com/ArthurSilv4/app-desafio100dias) Um aplicativo desenvolvido com .NET MAUI para criar desafios de 100 dias;
+
+
+
+<!-- ### Projetos em Atualização Contínua
+
+Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando para trazer melhorias constantes:
+
+- [Nome do projeto](link) 
+    <sub>Resumo do projeto;</sub>
+
+- [Nome do projeto](link) 
+    <sub>Resumo do projeto;</sub> -->
+
+
 
 ## Livros Recomendados
-
 ### Livros que vou ler em 2025
 
-- [Nome do livreo](link) by autor
+- [HOOKED](https://amzn.to/4emDevq) by Nir Eyal;
 
-## Rede
+
+
+
+## Redes
 
 [LinkedIn](https://www.linkedin.com/in/arthur-souza-dev/) compartilho mais da minha vida profissional;
+
+[GitHub](https://github.com/ArthurSilv4) Onde você encontra meus projetos, contribuições e aprendizados no mundo do código;
+
+
+
 
 ```csharp
 Console.WriteLine("Sim, essa página foi desenvolvida com muito carinho");
 ```
 
-tu pode deixar um LIKE clicando na estrelinha do [repo](https://github.com/ArthurSilv4/arthurdesouza.com/tree/master);
+
+
+Tu pode deixar um LIKE clicando na estrelinha do [repo](https://github.com/ArthurSilv4/arthurdesouza.com/tree/master);
