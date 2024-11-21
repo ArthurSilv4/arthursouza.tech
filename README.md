@@ -42,7 +42,7 @@ Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando pa
 ### Livros que vou ler em 2025
 
 - [**HOOKED**](https://amzn.to/4emDevq) de Nir Eyal  
-  Um excelente livro sobre como criar produtos que as pessoas não conseguem parar de usar
+  Um excelente livro sobre como criar produtos que as pessoas não conseguem parar de usar;
 
 
 
