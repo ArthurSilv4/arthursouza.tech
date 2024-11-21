@@ -59,12 +59,25 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .container {
   background-color: #1e1e1e;
   margin: 5% auto;
   padding: 40px;
   border-radius: 8px;
-  width: 80%;
+  width: 60%;
   overflow-y: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -72,5 +85,9 @@ a:hover {
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 1.5rem;
+  }
+
+  .container {
+    width: 80%;
   }
 }
