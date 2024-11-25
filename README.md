@@ -44,6 +44,9 @@ Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando pa
 - [**HOOKED**](https://amzn.to/4emDevq) de Nir Eyal  
   Um excelente livro sobre como criar produtos que as pessoas não conseguem parar de usar;
 
+- [**A startup enxuta**](https://amzn.to/3Zi5evT) de Eric Ries  
+  Como usar a inovação contínua para criar negócios radicalmente bem-sucedidos;
+
 
 
 
