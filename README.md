@@ -22,6 +22,8 @@ Juntos podemos criar algo incrível!
 
 Explore alguns dos projetos em que estou trabalhando ativamente;
 
+- [**Plataforma Desafioo.tech**]() Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
+
 - [**App Desafio dos 100 dias**](https://github.com/ArthurSilv4/app-desafio100dias) Um aplicativo desenvolvido com **.NET MAUI** para criar desafios de 100 dias, incentivando a produtividade e a melhoria contínua;
 
 
@@ -39,13 +41,13 @@ Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando pa
 
 
 ## Livros Recomendados
-### Livros que vou ler em 2025
+### Livros que estou lendo
 
-- [**HOOKED**](https://amzn.to/4emDevq) de Nir Eyal  
-  Um excelente livro sobre como criar produtos que as pessoas não conseguem parar de usar;
+- [**HOOKED**](https://amzn.to/4emDevq) de Nir Eyal;
 
-- [**A startup enxuta**](https://amzn.to/3Zi5evT) de Eric Ries  
-  Como usar a inovação contínua para criar negócios radicalmente bem-sucedidos;
+- [**A startup enxuta**](https://amzn.to/3Zi5evT) de Eric Ries;
+
+- [**Duna**]() de Frank Herbert;
 
 
 
