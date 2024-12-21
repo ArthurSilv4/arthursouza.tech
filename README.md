@@ -22,7 +22,7 @@ Juntos podemos criar algo incrível!
 
 Explore alguns dos projetos em que estou trabalhando ativamente;
 
-- [**Plataforma Desafioo.tech**]() Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
+- [**Plataforma Desafioo.tech**](https://github.com/ArthurSilv4/site-desafio.tech) Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
 
 - [**App Desafio dos 100 dias**](https://github.com/ArthurSilv4/app-desafio100dias) Um aplicativo desenvolvido com **.NET MAUI** para criar desafios de 100 dias, incentivando a produtividade e a melhoria contínua;
 
@@ -47,7 +47,7 @@ Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando pa
 
 - [**A startup enxuta**](https://amzn.to/3Zi5evT) de Eric Ries;
 
-- [**Duna**]() de Frank Herbert;
+- [**Duna**](https://amzn.to/3BEWIy5) de Frank Herbert;
 
 
 
