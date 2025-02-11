@@ -9,9 +9,9 @@ Estou sempre em busca de novos colaboradores para meus projetos. Se você tem in
 
 Confira os repositórios no GitHub e veja como você pode ajudar:
 
-- [**Front-end**](https://github.com/ArthurSilv4/site-desafio.tech) Ajude a criar interfaces intuitivas e dinâmicas para uma experiência de usuário atraente;
+- [**Front-end**](https://github.com/ArthurSilv4/front-desafioo.tech) Ajude a criar interfaces intuitivas e dinâmicas para uma experiência de usuário atraente;
 
-- [**Back-end**](https://github.com/ArthurSilv4/api-desafio.tech) Contribua com a lógica e a estrutura que suportam desafios reais, criados por profissionais para preparar estudantes para o mercado;
+- [**Back-end**](https://github.com/ArthurSilv4/api-desafioo.tech) Contribua com a lógica e a estrutura que suportam desafios reais, criados por profissionais para preparar estudantes para o mercado;
 
 Juntos podemos criar algo incrível!
 
