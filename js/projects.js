@@ -8,12 +8,12 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 2000) {
           continue;
         } else {
           throw new Error(
-            "Too Many Requests (429). Please try novamente mais tarde."
+            "Muitas requisições (429). Tente novamente mais tarde."
           );
         }
       }
       if (!response.ok)
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`Erro HTTP! status: ${response.status}`);
       return response;
     } catch (error) {
       if (i === retries - 1) throw error;
@@ -22,26 +22,63 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 2000) {
   }
 }
 
+async function fetchWithCache(url, cacheKey, cacheTTL = 1800) {
+  // 1800s = 30 min
+  const now = Date.now();
+
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    const parsed = JSON.parse(cached);
+    const isExpired = now - parsed.timestamp > cacheTTL * 1000;
+    if (!isExpired) {
+      return parsed.data;
+    }
+  }
+
+  const response = await fetchWithRetry(url);
+  const data = await response.text();
+
+  localStorage.setItem(
+    cacheKey,
+    JSON.stringify({
+      timestamp: now,
+      data,
+    })
+  );
+
+  return data;
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
+  const container = document.getElementById("content");
+
   try {
-    const response = await fetchWithRetry(
-      "https://raw.githubusercontent.com/ArthurSilv4/arthursouza.tech/refs/heads/master/README.md"
+    const data = await fetchWithCache(
+      "https://raw.githubusercontent.com/ArthurSilv4/arthursouza.tech/master/README.md",
+      "cachedReadme",
+      1800 // tempo em segundos (30 minutos)
     );
-    const data = await response.text();
-    const container = document.getElementById("content");
 
     if (container) {
       container.innerHTML = marked(data);
       Prism.highlightAllUnder(container);
     } else {
-      console.error("Element with ID 'content' not found.");
+      console.error("Elemento com ID 'content' não encontrado.");
     }
   } catch (error) {
     console.error(error);
-    const container = document.getElementById("content");
     if (container) {
       container.innerHTML = `<p style="color:red;">Erro ao carregar conteúdo: ${error.message}</p>`;
     }
+  }
+
+  const clickmeImage = document.getElementById("clickme");
+  if (clickmeImage) {
+    clickmeImage.addEventListener("click", () =>
+      window.open("https://www.linkedin.com/in/arthur-souza-dev/", "_blank")
+    );
+  } else {
+    console.error("Elemento com ID 'clickme' não encontrado.");
   }
 });
 
@@ -52,18 +89,7 @@ window.addEventListener("scroll", function () {
       clickmeElement.style.display = "block";
       clickmeElement.classList.add("animate-clickme");
     } else {
-      console.error("Element with ID 'clickme' not found.");
+      console.error("Elemento com ID 'clickme' não encontrado.");
     }
-  }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  const clickmeImage = document.getElementById("clickme");
-  if (clickmeImage) {
-    clickmeImage.addEventListener("click", () =>
-      window.open("https://www.linkedin.com/in/arthur-souza-dev/", "_blank")
-    );
-  } else {
-    console.error("Element with ID 'clickme' not found.");
   }
 });
