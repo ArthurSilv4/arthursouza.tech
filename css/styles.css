@@ -59,6 +59,11 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   background-color: #1e1e1e;
   margin: 5% auto;
