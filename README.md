@@ -18,30 +18,16 @@ Juntos podemos criar algo incrível!
 
 
 ## Projetos em Destaque
-### Projetos em Desenvolvimento
+### Projetos em Atualização Contínua
 
 Explore alguns dos projetos em que estou trabalhando ativamente;
 
 - [**Plataforma Desafioo.tech**](https://github.com/ArthurSilv4/front-desafioo.tech) Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
 
-<!-- - [**App Desafio dos 100 dias**](https://github.com/ArthurSilv4/app-desafio100dias) Um aplicativo desenvolvido com **.NET MAUI** para criar desafios de 100 dias, incentivando a produtividade e a melhoria contínua; -->
-
-
-
-<!-- ### Projetos em Atualização Contínua
-
-Estes são alguns dos meus projetos concluídos, mas que continuo aprimorando para trazer melhorias constantes:
-
-- [Nome do projeto](link) 
-    <sub>Resumo do projeto;</sub>
-
-- [Nome do projeto](link) 
-    <sub>Resumo do projeto;</sub> -->
-
+![desafioo.tech](desafioo.tech.png)
 
 
 ## Livros Recomendados
-### Livros que estou lendo
 
 - [**HOOKED**](https://amzn.to/4emDevq) de Nir Eyal;
 
