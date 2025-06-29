@@ -22,9 +22,9 @@ Juntos podemos criar algo incrível!
 
 Explore alguns dos projetos em que estou trabalhando ativamente;
 
-- [**Plataforma Desafioo.tech**](https://github.com/ArthurSilv4/front-desafioo.tech) Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
+- [**Plataforma Desafioo.tech**](https://www.desafioo.tech/) Uma plataform open-source com o objetivo de desafiar estudantes de programação a resolver problema reais ultilizando tecnologia e criatividade;
 
-![desafioo.tech](desafioo.tech.png)
+![https://www.desafioo.tech/](desafioo.tech.png)
 
 
 ## Livros Recomendados
